@@ -1,0 +1,17 @@
+{
+  "name": "agentcontract",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnmollCodes/agentcontract.git"
+  },
+  "workspaces": [
+    "packages/*",
+    "examples"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "node --test tests/*.test.js"
+  }
+}

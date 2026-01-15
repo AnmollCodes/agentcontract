@@ -1,0 +1,32 @@
+{
+  "name": "@anmollcodes/agent",
+  "version": "0.1.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnmollCodes/agentcontract.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "agentcontract-inspect": "./dist/cli-inspect.js"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "zod": "^3.22.4",
+    "@anmollcodes/core": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.29",
+    "typescript": "^5.9.3",
+    "zod": "^3.25.76"
+  }
+}

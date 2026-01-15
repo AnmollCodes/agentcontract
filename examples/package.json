@@ -1,0 +1,20 @@
+{
+    "name": "agentcontract-examples",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "tsc --noEmit",
+        "start:site": "tsx saas-site.ts",
+        "start:agent": "tsx agent-bot.ts"
+    },
+    "dependencies": {
+        "@anmollcodes/core": "file:../packages/core",
+        "@anmollcodes/web": "file:../packages/web",
+        "@anmollcodes/agent": "file:../packages/agent"
+    },
+    "devDependencies": {
+        "tsx": "^4.7.0",
+        "typescript": "^5.0.0",
+        "@types/node": "^20.0.0"
+    }
+}

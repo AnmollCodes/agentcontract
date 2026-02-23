@@ -1,6 +1,6 @@
 {
   "name": "@anmollcodes/web",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "agentcontract-lint": "./dist/cli.js"
+    "agentcontract-lint": "dist/cli.js"
   },
   "exports": {
     ".": "./dist/index.js"
